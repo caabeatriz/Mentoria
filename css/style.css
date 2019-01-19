@@ -57,13 +57,13 @@ body{
     justify-content: space-between;
 }
 
-.nav-bar_link, .nav-bar_menu{
+.nav-bar_link, .nav-bar_btnMenu{
     margin: 10px;
     text-decoration: none;
     color: white;
 }
 
-.nav-bar_menu{
+.nav-bar_btnMenu{
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
 }
