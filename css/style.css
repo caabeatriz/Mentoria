@@ -25,12 +25,12 @@ body{
     margin-left: 123px;    
 }
 
-.banner_title{
+/* .banner_title{
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-}
+} */
 
 .btn_red{
     width: 94px;
@@ -53,6 +53,7 @@ body{
 }
 
 .nav-bar{
+    position: fixed;
     display: flex;
     justify-content: space-between;
 }
@@ -66,6 +67,10 @@ body{
 .nav-bar_btnMenu{
     border: 1px solid white;
     background-color: rgba(255, 255, 255, 0);
+}
+.banner_title{
+    height: 20px;
+    margin-top: 195px;
 }
 
 .sobreMentoria_header{
@@ -111,4 +116,38 @@ body{
 }
 .carousel-item_subtitle{
     padding: 0 25px;
+}
+
+/* pagina emprego */
+.bannerEmprego{  
+    background-image: url("../assets/emprego.jpg");
+}
+
+.sobre_titleBlack{
+    color: black;
+    text-align: center;
+}
+.sobre_subTitleBlack{
+    color: black;
+    margin-bottom: 25%;
+}
+.card_titleBlack{
+    color: black;
+    margin-bottom: 10%;
+}
+.card_subTitleBlack{
+    color: black;
+}
+
+.cardEmprego{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+.cardEmprego_img{
+    width: 40%;
 }
