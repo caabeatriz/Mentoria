@@ -1,0 +1,46 @@
+body{
+    background-color: #AD3550;
+}
+.bannerPrimary{
+    background-image:url("../assets/banner4.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    display: flex;
+}
+.bannerPrimary_content{
+    margin-top: 60vh;
+    padding: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn_primary{
+    width: 10vw;
+    padding: 4px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: white;
+    background-color: #AD3550;
+    border-radius: 12px;
+}
+.aboutMentor_title{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+}
+.aboutMentor_img{
+    width: 25%;
+    margin: 30px 0 35px 85px;
+    border-radius: 130px;
+}
+.aboutMentor_content{
+    display: flex;
+    align-items: center;
+}
+.aboutMentor_paragraph{
+    color: white;
+    margin: 0 0 0 100px;
+}
+
