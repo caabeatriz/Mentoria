@@ -78,6 +78,21 @@ body{
    
 }
 
+/* pagina emprego */
+
+.aboutJob{
+    text-align: center;
+    margin: 5%;
+}
+
+.topicsAboutJob{
+    display: flex;
+    margin: 5%;
+}
+.topisAboutJob_img{
+    width: 30%;
+}
+
 @media(max-width:768px){
     .bannerPrimary_content{
         margin: 68vh 0 0 25vh;
