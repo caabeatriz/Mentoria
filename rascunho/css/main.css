@@ -1,0 +1,375 @@
+body{
+    background-color: #AD3550;
+    margin:  0 auto;
+}
+.bannerPrimary{
+    background-image:url("../assets/banner4.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    justify-content: flex-end;
+    display: flex;
+}
+.bannerPrimary_content{
+    margin: 60vh;
+    padding: 100px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn_primary{
+    width: 10vw;
+    padding: 4px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: white;
+    background-color: #AD3550;
+    border-radius: 12px;
+}
+.aboutMentor_title{
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+}
+.aboutMentor_img{
+    width: 25%;
+    margin: 30px 0 35px 85px;
+    border-radius: 130px;
+}
+.aboutMentor_content{
+    display: flex;
+    align-items: center;
+}
+.aboutMentor_paragraph{
+    color: white;
+    margin: 0 0 0 100px;
+}
+.carousel-mentoria{
+    background: white;
+    text-align: center;
+    border-radius: 24px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.img-mentoria{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 150px;
+
+}
+.btn-red{
+    width: 120px;
+    padding: 4px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #AD3550;
+    border-radius: 12px;
+}
+.carousel-mentoria_slides{
+    padding: 50px;
+}
+.bannerSecond{
+    background-image: url("../assets/mentoria.jpg");
+    -webkit-filter: grayscale(60%); /* Chrome, Safari, Opera */
+    filter: grayscale(60%);
+   
+}
+
+/* pagina emprego */
+
+.paginaEmprego{
+    background: white;
+}
+.aboutJob{
+    text-align: center;
+    margin: 5%;
+    background: white;
+}
+
+.topicsAboutJob{
+    display: flex;
+    margin: 5%;
+}
+.topicsAboutJob_icons{
+    padding: 50px;
+}
+.topisAboutJob_img{
+    width: 30%;
+}
+
+@media(max-width:768px){
+    .bannerPrimary_content{
+        margin: 68vh 0 0 25vh;
+        padding: 0rem;
+    }
+    .aboutMentor_content{
+        display: block;
+    }
+    .aboutMentor_img{
+        width: 55%;
+    }
+    .aboutMentor_paragraph{
+        margin: 0 0 50px 42px;
+    }
+    .carousel-mentoria_slides{
+        padding: 30px;
+    }
+    .img-mentoria{
+        width: 70%;
+    }
+}
+
+
+
+/* Oi, eu sou um comentário em CSS */
+
+/* ESTILOS GERAIS */
+
+/* Aplicar em todos os elementos HTML */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 24px; color: #E3E7EC;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* h3 {
+    color: #541736; background-color: #9F3F4D
+} */ 
+
+/*BANNER*/
+
+.banner {
+    background: url(../IMG/austin-chan-275638-unsplash.jpg); 
+    background-size: cover;
+    height: 540px;
+    color: white;
+    text-align: center;
+}
+
+.banner__conteudo{
+    padding: 200px
+}
+
+.banner__titulo{
+    font-size: 50px;
+}
+
+.banner__subtitulo{
+font-size: 23px;
+}
+
+.banner__link{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #73459B;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius:20px; 
+}
+
+/* SOBRE MIM */
+
+.container-margens{
+width: 100%;
+max-width: 1080px;
+margin: 90px auto;
+margin-top: 90px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* BANNER */
+
+.banner {
+    background: url(../img/Nanda.png);
+    background-size: cover;
+    height: 580px;
+        color: white;
+    text-align: center;      
+}
+
+.banner__conteudo {
+    padding: 290px;
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner__subtitulo {
+    font-size: 23px;
+}
+
+.banner__link {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* SOBRE MIM*/
+
+.container-margens {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.sobre__titulo {
+    font-size: 35px;
+    color: #ff751a;
+
+.sobre__descricao-principal {
+    font-size: 22px;
+}
+
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descricao, .sobre__habilidades {
+    width: 50%; 
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserr", sans-serif
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* BANNER */
+
+.banner {
+    background: url(../img/Nanda.png);
+    background-size: cover;
+    height: 580px;
+        color: white;
+    text-align: center;      
+}
+
+.banner__conteudo {
+    padding: 290px;
+}
+
+.banner__titulo {
+    font-size: 50px;
+}
+
+.banner__subtitulo {
+    font-size: 23px;
+}
+
+.banner__link {
+    color: black;
+    background-color: white;
+    
+}
+
+/* propriedade botao da página*/
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+/* minhas margens*/
+
+.container-margens {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+/* SOBRE MIM*/
+.sobre__titulo {
+    font-size: 35px;
+    color: #ff751a;
+}
+
+.sobre__descricao-principal {
+    font-size: 22px;
+}
+
+
+.sobre {
+    display: flex;
+}
+
+.sobre__descricao, .sobre__habilidades {
+    width: 50%; 
+    line-height: 30px;
+}
+
+.sobre__cv-link {
+    border: 1px solid #ff751a;
+    color:  #ff751a;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
+
+
+.redes-sociais__link {
+    background-color: #ff751a;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    padding: 20px; 
+    margin: 0 15px;
+    text-align: center
+}
